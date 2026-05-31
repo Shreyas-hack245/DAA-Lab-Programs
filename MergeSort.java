@@ -40,7 +40,7 @@ public class MergeSort {
     void merge(int left, int mid, int right) {
         int temp[] = new int[a.length];
 
-        int i = left, j = mid + 1, k = left;
+        int i = left, j = mid + 1, k = 0;
 
         while (i <= mid && j <= right) {
             if (a[i] <= a[j])
